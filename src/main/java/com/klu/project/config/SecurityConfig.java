@@ -80,7 +80,7 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
                 "http://localhost:3000",     // React
                 "http://localhost:5173",     // Vite
-                "https://your-frontend-url.com" // 🔥 PUT YOUR DEPLOYED FRONTEND HERE
+                "https://projectcode-production-862d.up.railway.app" // 🔥 PUT YOUR DEPLOYED FRONTEND HERE
         ));
 
         config.setAllowedMethods(List.of(
